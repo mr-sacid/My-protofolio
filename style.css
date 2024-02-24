@@ -158,4 +158,25 @@ li a{
     font-size: 0.75rem;
     margin-left: 2.8rem;
 }
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    .social{
+        display: flex;
+        gap: 1.5ram;
+    }
+}
+
+
 
