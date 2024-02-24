@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+.intro{
+    background-image: url(./vector-JUL-2021-61.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'pacifico', cursive;
+    font-size: 4rem;
+    color: cadetblue;
+    letter-spacing: 1px;
+    
+}
+
+.intro p{
+    font-size: 2rem;
+    color: cadetblue;
+}
+
+.introduction{
+    background-color: rgb(210, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: cadetblue;
+}
+
+.introduction p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: rgb(30, 7, 45);
+    font-size: 1.25rem;
+    max-width: 510px;
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(227, 241, 241);
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: cadetblue;
+}
+
+.skills p{
+    font-size: 1.25rem;
+    color: rgb(30, 7, 45);
+    font-weight: 300;
+    max-width: 510px;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(237, 244, 244);
+}
+
+.contact p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: 'Roboto slab', serif;
+    color: rgb(30, 7, 45);
+    max-width: 510px;
+    text-align: center;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    
+    
+}
+
+button{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    margin-top: 4rem;
+
+}
+
+button:hover{
+    background-color: rgb(52, 210, 162);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: linear-gradient(to right, cadetblue, rgb(195, 233, 221));
+}
+
+.social ul{
+    display: flex;
+    
+    gap: 3rem;
+    
+
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Roboto Slab', Serif;
+    font-weight: 400;
+    color: rgb(42, 133, 135);
+    text-align: center;
+}
+.copy{
+    text-align: center;
+}
+
+.copy p{
+    font-family: 'Roboto Slab', Serif;
+    font-weight: 300;
+    color: rgb(30, 7, 45);
+    font-size: 0.75rem;
+    margin-left: 2.8rem;
+}
+
