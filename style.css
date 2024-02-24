@@ -74,6 +74,7 @@ h3{
 .skills p{
     font-size: 1.25rem;
     color: rgb(30, 7, 45);
+    font-family: 'Roboto Slab', serif;
     font-weight: 300;
     max-width: 510px;
     text-align: center;
@@ -162,6 +163,9 @@ li a{
     h1{
         font-size: 2.5rem;
     }
+    .intro p{
+        font-size: 1.5rem;
+    }
     h2{
         font-size: 1.8rem;
     }
@@ -169,14 +173,16 @@ li a{
         font-size: 1.5rem;
     }
 
-    p{
+    .skills p, .introduction p, .contact p{
         font-size: 1rem;
+        max-width: 300px;
     }
-    .social{
+    .social ul{
         display: flex;
-        gap: 1.5ram;
+        gap: 1.5rem;
+        
     }
-}
 
+}
 
 
